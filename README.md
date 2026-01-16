@@ -1,6 +1,45 @@
 # Gas-and-Smoke-Detection-System
 The Gas and Smoke Detection System using Arduino and MQ2 Sensor is an embedded system designed to detect and monitor the presence of harmful and combustible gases in the surrounding environment. It uses the MQ2 gas sensor, which is capable of sensing gases such as LPG (Liquefied Petroleum Gas), methane, carbon monoxide (CO), hydrogen, alcohol, propane, and smoke. The system provides both visual and audio alerts whenever the gas concentration crosses a specified safety threshold. It also displays real-time gas readings on an I²C-based Liquid Crystal Display (LCD) and transmits data to the serial monitor for observation and analysis.
 
+##  Components Used
+
+###  Hardware Components
+- **Arduino Uno (ATmega328P):**  
+  Acts as the main control unit, responsible for data acquisition, processing, and output control.
+
+- **MQ-2 Gas Sensor Module:**  
+  Detects combustible gases such as LPG, smoke, and carbon monoxide by varying its output voltage based on gas concentration.
+
+- **I²C 16×2 LCD Display (with PCF8574):**  
+  Displays real-time gas concentration values and system status using I²C communication.
+
+- **LED:**  
+  Provides visual indication when gas concentration exceeds safe limits.
+
+- **Buzzer:**  
+  Generates an audible alarm to alert users during hazardous gas detection.
+
+
+- **Breadboard:**  
+  Facilitates easy prototyping and testing without soldering.
+
+- **Jumper Wires:**  
+  Used to establish electrical connections between components.
+
+---
+
+###  Software Components
+- **Arduino IDE:**  
+  Used for writing, compiling, and uploading the program to the Arduino Uno.
+
+- **Proteus Design Suite (Optional):**  
+  Used for circuit simulation and testing before hardware implementation.
+
+- **Serial Monitor:**  
+  Enables real-time monitoring and debugging of sensor readings.
+
+
+
 ##  MQ-2 Gas Sensor Working Principle
 
 The MQ-2 sensor is a **semiconductor-based gas sensor** that operates on the principle of change in electrical resistance of its sensing material, **Tin Dioxide (SnO₂)**, when exposed to combustible and hazardous gases.
