@@ -77,7 +77,7 @@ The **Arduino Uno**, based on the **ATmega328P microcontroller**, acts as the ma
 
 The **Liquid Crystal Display (LCD)** is interfaced using the **I²C communication protocol** via the **PCF8574 I/O expander module**, minimizing the number of required Arduino I/O pins.
 
----
+
 
 ##  Circuit Description
 
@@ -91,7 +91,7 @@ The **Liquid Crystal Display (LCD)** is interfaced using the **I²C communicatio
 
 For simulation and calibration purposes (e.g., in **Proteus**), a **potentiometer** may be used to emulate the analog output of the gas sensor.
 
----
+
 
 ##  System Operation
 
@@ -102,7 +102,7 @@ For simulation and calibration purposes (e.g., in **Proteus**), a **potentiomete
 5. When the gas concentration exceeds a predefined threshold, the **LED turns ON** and the **buzzer is activated**.
 6. When the gas level returns to safe limits, the **LED and buzzer automatically turn OFF**.
 
----
+
 
 ##  Advantages of the System
 
@@ -112,7 +112,7 @@ For simulation and calibration purposes (e.g., in **Proteus**), a **potentiomete
 - Easily extendable to **IoT platforms** for remote monitoring and automation.
 - Portable and suitable for **home, industrial, and laboratory applications**.
 
----
+
 
 ##  Applications
 
