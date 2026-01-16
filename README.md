@@ -26,7 +26,6 @@ The Gas and Smoke Detection System using Arduino and MQ2 Sensor is an embedded s
 - **Jumper Wires:**  
   Used to establish electrical connections between components.
 
----
 
 ###  Software Components
 - **Arduino IDE:**  
