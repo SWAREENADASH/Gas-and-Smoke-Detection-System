@@ -1,4 +1,4 @@
-# Gas-and-Smoke-Detection-System
+# Gas-Detection-System
 The Gas Detection System using Arduino and MQ2 Sensor is an embedded system designed to detect and monitor the presence of harmful and combustible gases in the surrounding environment. It uses the MQ2 gas sensor, which is capable of sensing gases such as LPG (Liquefied Petroleum Gas), methane, carbon monoxide (CO), hydrogen, alcohol, propane,
 and smoke. The system provides both visual and audio alerts whenever the gas concentration crosses a specified safety threshold. It also displays real-time gas readings on
 an I²C-based Liquid Crystal Display (LCD) and transmits data to the serial monitor for observation and analysis.
